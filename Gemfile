@@ -27,6 +27,28 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem for patreon users in webapp
 gem 'patreon', '~> 0.2.0'
 
+#set de gemas que utilizo para mis proyectos
+#gema para el login de usuarios 
+#gem 'devise', '~> 4.2'
+
+#gema para las imagenes
+gem 'paperclip'
+#gema para guardar imagenes en amazon S3
+gem 'aws-sdk', '~> 2.3'
+
+#gema para los css y para el frot end de la pagina
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+
+#gema para procesos externos
+gem 'sidekiq', '~> 4.1', '>= 4.1.4'
+gem 'searchkick', '~> 1.3', '>= 1.3.3'
+
+#gema para los errores y para realizar debug
+gem "better_errors"
+gem "binding_of_caller"
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
